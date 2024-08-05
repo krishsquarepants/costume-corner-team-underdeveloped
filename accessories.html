@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Accessories - Costume Corner</title>
+</head>
+
+<body>
+    <section class="navbar">
+        <nav>
+            <ul>
+                <li class="logo"><a href="index.html"><img src="./assets/Costume_Corner__16_-removebg-preview.png" alt="Costume Corner Logo"></a></li>
+                <li class="hideOnMobile items"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile items"><a href="women.html">Women</a></li>
+                <li class="hideOnMobile items"><a href="men.html">Men</a></li>
+                <li class="hideOnMobile items"><a href="kids.html">Kids</a></li>
+                <li class="hideOnMobile items"><a href="pets.html">Pets</a></li>
+                <li class="hideOnMobile items"><a href="shoes.html">Shoes</a></li>
+                <li class="hideOnMobile items"><a href="accessories.html">Accessories</a></li>
+                <li class="search-container">
+                    <input type="text" id="search-bar" placeholder="Search...">
+                    <button onclick="startDictation()">
+                        <img src="./assets/mic.png" alt="Mic" style="width: 24px; height: 24px;">
+                    </button>
+                </li>
+                <li onclick="showSidebar()">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                </li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li class="items"><a href="index.html">Home</a></li>
+                <li class="items"><a href="women.html">Women</a></li>
+                <li class="items"><a href="men.html">Men</a></li>
+                <li class="items"><a href="kids.html">Kids</a></li>
+                <li class="items"><a href="pets.html">Pets</a></li>
+                <li class="items"><a href="shoes.html">Shoes</a></li>
+                <li class="items"><a href="accessories.html">Accessories</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="category">
+        <h2>Accessories</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="./assets/Crown.png" alt="Product 1">
+                <h3>Crown</h3>
+                <p>Rs.1999</p>
+            </div>
+            <div class="product">
+                <img src="./assets/Krishna.png" alt="Product 2">
+                <h3>Lord Krishna</h3>
+                <p>Rs.2999</p>
+            </div>
+            <div class="product">
+                <img src="./assets/Mickey.png" alt="Product 3">
+                <h3>Mickey Mouse Headbands</h3>
+                <p>Rs.3599</p>
+            </div>
+            <div class="product">
+                <img src="./assets/Elf_Ears.png" alt="Product 4">
+                <h3>Elf Ears</h3>
+                <p>Rs.1499</p>
+            </div>
+            <div class="product">
+                <img src="./assets/Tiara.png" alt="Product 5">
+                <h3>Tiara</h3>
+                <p>Rs.5299</p>
+            </div>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="./assets/images (7).png" alt="Product 6">
+                    <h3>Cat Ears and Tail</h3>
+                    <p>Rs.1999</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/Silver-1-630x552.png" alt="Product 7">
+                    <h3>Black Panther Pendant</h3>
+                    <p>Rs.2999</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/naruto-anime-konoha-headband-cosplay-accessories-1-naruto-anime-original-imagufkfhg9xnva6.png" alt="Product 8">
+                    <h3>Naruto Headband</h3>
+                    <p>Rs.3599</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/il_fullxfull.6079315078_a8xz.png" alt="Product 9">
+                    <h3>Wolverine Mask</h3>
+                    <p>Rs.1499</p>
+                </div>
+                <div class="product">
+                    <img src="./assets/IMG_20190908_021155.png" alt="Product 10">
+                    <h3>Elderwood Ahri Accessories</h3>
+                    <p>Rs.5299</p>
+                </div>
+            
+        </div>
+    </section>
+    <section id="our-products">
+        <h2>Our Most Liked Items</h2>
+        <div class="wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368" id="left"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/feature1.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Captain Marvel</h3>
+                    <span class="price">₹3000</span>
+                </li>
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/feature3.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Dragon</h3>
+                    <span class="price">₹1500</span>
+                </li>
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/feature5.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Batman</h3>
+                    <span class="price">₹3000</span>
+                </li>
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/feature2.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Snow white</h3>
+                    <span class="price">₹2000</span>
+                </li>
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/feature4.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Astronaut</h3>
+                    <span class="price">₹1800</span>
+                </li>
+                <li class="card">
+                    <div class="product-image image"><img src="./assets/pet1.png" class="product-thumb" height="300px" width="250px" draggable="false"></div>
+                    <h3 class="product-name">Peter Pan</h3>
+                    <span class="price">₹900</span>
+                </li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368" id="right"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item">
+                    <i class="fas fa-phone"></i>
+                    <span>✨Costume Corner✨</span>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact: +91 9845258693</span>
+                </div>
+                <div class="footer-item">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/_yash05" target="_blank">Follow us on Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
